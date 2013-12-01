@@ -1,10 +1,10 @@
 <?php
 namespace libs;
 
-class Class extends PDO
+class class extends PDO
 {
-	function __construct()
+	public function __construct()
 	{
-		# code...
+		// code...
 	}
 }
