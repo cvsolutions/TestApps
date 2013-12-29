@@ -1,13 +1,17 @@
 <?php
 namespace libs;
 
-class class extends PDO
+/**
+ * DemoClass
+ *
+ * @author Concetto Vecchio
+ *
+ */
+class DemoClass extends PDO
 {
-	private function __halt_compiler()
-	{}
-	
-	public function __construct()
-	{
-		// code...
-	}
+
+    public function __construct()
+    {
+        // code...
+    }
 }
