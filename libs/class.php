@@ -1,17 +1,34 @@
 <?php
+
 namespace libs;
 
 /**
- * DemoClass
  *
  * @author Concetto Vecchio
- *
+ *        
  */
-class DemoClass extends PDO
-{
+class DemoClass extends \PDO {
+	
+	protected $_FullName;
+	
+	/**
+	 * @return the $_FullName
+	 */
+	public function getFullName() {
+		return $this->_FullName;
+	}
 
-    public function __construct()
-    {
-        // code...
-    }
+	/**
+	 * @param field_type $_FullName
+	 */
+	public function setFullName($_FullName) {
+		$this->_FullName = $_FullName;
+	}
+
+	/**
+	 * test
+	 */
+	public function __construct() {
+		// code...
+	}
 }
