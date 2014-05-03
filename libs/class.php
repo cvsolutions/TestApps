@@ -3,32 +3,35 @@
 namespace libs;
 
 /**
- *
- * @author Concetto Vecchio
- *        
+ * Class DemoClass
+ * @package libs
  */
-class DemoClass extends \PDO {
-	
-	protected $_FullName;
-	
-	/**
-	 * @return the $_FullName
-	 */
-	public function getFullName() {
-		return $this->_FullName;
-	}
+class DemoClass extends \PDO
+{
 
-	/**
-	 * @param field_type $_FullName
-	 */
-	public function setFullName($_FullName) {
-		$this->_FullName = $_FullName;
-	}
+    protected $_FullName;
 
-	/**
-	 * test
-	 */
-	public function __construct() {
-		// code...
-	}
+    /**
+     * @return mixed
+     */
+    public function getFullName()
+    {
+        return $this->_FullName;
+    }
+
+    /**
+     * @param $_FullName
+     */
+    public function setFullName($_FullName)
+    {
+        $this->_FullName = $_FullName;
+    }
+
+    /**
+     * test
+     */
+    public function __construct()
+    {
+        // code...
+    }
 }
